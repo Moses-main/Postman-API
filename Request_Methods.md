@@ -4,16 +4,12 @@
 
 ---
 
-| <b> Method Name | Operation |</b>
-
-|`GET` | Retrieve data (Read) |
-
-|`POST` | Send data (Create) |
-
-|`PUT/PATCH` | \* `PUT` Usually replaces an entire resources, whereas `PATCH` usually is for partial updates |
-
-|`DELETE` |
-Delete data (Delete) |
+| <b> Method Name | Operation                                                                                     | </b> |
+| --------------- | --------------------------------------------------------------------------------------------- | ---- |
+| `GET`           | Retrieve data (Read)                                                                          |
+| `POST`          | Send data (Create)                                                                            |
+| `PUT/PATCH`     | \* `PUT` Usually replaces an entire resources, whereas `PATCH` usually is for partial updates |
+| `DELETE`        | Delete data (Delete)                                                                          |
 
 ## Request URL
 
@@ -21,9 +17,9 @@ Delete data (Delete) |
 
 ---
 
-| Protocol | Host | Path |
-
-|`https://` | `library-api.postmanlabs.com` | `	/books` |
+| Protocol   | Host                          | Path     |
+| ---------- | ----------------------------- | -------- |
+| `https://` | `library-api.postmanlabs.com` | `	/books` |
 
 ## Reponses status codes
 
