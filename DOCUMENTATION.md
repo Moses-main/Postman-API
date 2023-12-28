@@ -43,3 +43,15 @@
 
 - <b>Partner APIs (aka OPen APIs)</b>
 <p>Consumed between one or more organizations that have an established relationship</p>
+
+## Working with APIs then and now:cURL vs. Postman
+
+#### <b>API calls with `curl`</b>
+
+<p>Before Postman, it was common practice to poke at APIs with a command line tool for making HTTP requests called cURL.</p>
+
+**_example curl https://api.github.com/users/postmanlabs_**
+
+#### <b>API calls with Postman</b>
+
+<p>Here is the same call done with Postman. Postman shows the response with clean indents and olors and allows you to save, organize and share your requests. All the components of the request and response are broken down into tabs and other helpful details like the response time and status code.</p>
