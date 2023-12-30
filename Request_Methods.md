@@ -25,21 +25,23 @@
 
 Status codes have conventions. For example, any status code starting with a "2xx" (a "200-level reponse") represents a successful call.
 
-| Code range | Meaning      | Example                        |
-| ---------- | ------------ | ------------------------------ |
-| `2xx`      | success      | `200` - OK                     |
-|            |              | `201` - Created                |
-|            |              | `204` - No content (silent OK) |
-|            |
-|            |
-| `3xx`      | Redirection  | `301` - Moved (path changed)   |
-| `4xx`      | Client Error | `400` - Bad request            |
-|            |              | `401` - Unauthorized           |
-|            |              | `403` - Not Permitted          |
-|            |              | `404` - Not Found              |
-| `5xx`      | server error | `500` - Internal Server Error  |
-|            |              | `502` - Bad Gateway            |
-|            |              | `504` - Gateway timeout        |
+| Code range | Meaning | Example         |
+| ---------- | ------- | --------------- |
+| `2xx`      | success | `200` - OK      |
+|            |         | `201` - Created |
+
+| | | `204` - No content (silent OK) |
+
+| `3xx` | Redirection | `301` - Moved (path changed) |
+
+| `4xx` | Client Error | `400` - Bad request |
+
+| | | `401` - Unauthorized |
+| | | `403` - Not Permitted |
+| | | `404` - Not Found |
+| `5xx` | server error | `500` - Internal Server Error |
+| | | `502` - Bad Gateway |
+| | | `504` - Gateway timeout |
 
 ## Request-Response Pattern
 
